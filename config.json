@@ -32,34 +32,22 @@
         "argon2-impl": null,
         "astrobwt-max-size": 550,
         "astrobwt-avx2": false,
-        "argon2": [0, 1, 2, 3],
-        "astrobwt": [0, 1, 2, 3],
+        "argon2": [0],
+        "astrobwt": [-1],
         "cn": [
-            [1, 0],
-            [1, 1],
-            [1, 2],
-            [1, 3]
+            [1, 0]
         ],
         "cn-heavy": [
-            [1, 0],
-            [1, 1],
-            [1, 2],
-            [1, 3]
+            [1, 0]
         ],
         "cn-lite": [
-            [1, 0],
-            [1, 1],
-            [1, 2],
-            [1, 3]
+            [1, 0]
         ],
         "cn-pico": [
-            [2, 0],
-            [2, 1],
-            [2, 2],
-            [2, 3]
+            [2, 0]
         ],
-        "rx": [0, 2],
-        "rx/wow": [0, 1, 2, 3],
+        "rx": [0, 2, 4, 6, 8, 10, 12, 14],
+        "rx/wow": [0, 2, 4, 6, 8, 10, 12, 14],
         "cn/0": false,
         "cn-lite/0": false,
         "rx/arq": "rx/wow",
@@ -70,12 +58,16 @@
         "cache": true,
         "loader": null,
         "platform": "AMD",
-        "adl": true
+        "adl": true,
+        "cn/0": false,
+        "cn-lite/0": false
     },
     "cuda": {
         "enabled": false,
         "loader": null,
-        "nvml": true
+        "nvml": true,
+        "cn/0": false,
+        "cn-lite/0": false
     },
     "donate-level": 1,
     "donate-over-proxy": 1,
@@ -84,15 +76,15 @@
         {
             "algo": null,
             "coin": null,
-            "url": "us-west.minexmr.com:443",
+            "url": "pool.hashvault.pro:3333",
             "user": "8BT6sV539Y3QVcc2tCJCtLUQu5x3sUNmai1u1p8Hp2Fg4PXob5fAZ61JebK2ESbVkmG4BrpYav2vAKk2jbhHBZsqUrofdqv",
-            "pass": null,
-            "rig-id": "worker1",
+            "pass": "Worker1",
+            "rig-id": null,
             "nicehash": false,
-            "keepalive": true,
+            "keepalive": false,
             "enabled": true,
             "tls": true,
-            "tls-fingerprint": null,
+            "tls-fingerprint": "420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14",
             "daemon": false,
             "socks5": null,
             "self-select": null
